@@ -1,0 +1,20 @@
+body{
+	background: linear-gradient(to bottom right, rgb(214, 232, 234) ,rgb(178, 212, 216), rgb(42, 125, 134));
+	margin: 0;
+	height: 100vh;
+}
+#container{
+	width: 40vw;
+	min-width: 300px;
+	margin:0 auto;
+	border: 2px solid red;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+li{
+	cursor: pointer;
+	list-style: none;
+}
+
+
