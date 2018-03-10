@@ -8,13 +8,16 @@ body{
 	min-width: 300px;
 	margin:0 auto;
 	border: 2px solid red;
-	justify-content: center;
-	text-align: center;
-	align-items: center;
 }
 li{
 	cursor: pointer;
 	list-style: none;
+	width: 100%;
+	margin:0;
 }
-
+/* .done{
+	color: rgb(128, 128, 128);
+	text-decoration: line-through;
+}
+*/
 
