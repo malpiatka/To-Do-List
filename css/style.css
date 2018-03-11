@@ -1,23 +1,75 @@
 body{
-	background: linear-gradient(to bottom right, rgb(214, 232, 234) ,rgb(178, 212, 216), rgb(42, 125, 134));
+	display: flex;
+	background: #833ab4;  
+	background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
+	background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 	margin: 0;
 	height: 100vh;
+	justify-content:center;
+	align-items: center;
 }
 #container{
-	width: 40vw;
-	min-width: 300px;
+	display: grid;
+	position: absolute;
+	width: 550px;
+	height: auto;
 	margin:0 auto;
-	border: 2px solid red;
+	background-color:rgba(255, 255, 255, 0.69);
+	padding: 2%;
+	box-shadow: 0px 2px 3px 1px;
+	}
+h1{
+	text-align: center;
+	font-size: 3em;
+	margin: 15px;
+	text-shadow: 1px 1px 2px rgba(100, 100, 100, 0.66),
+		1px 2px 3px rgba(59, 59, 59, 0.51);
+}
+ul{
+	margin: 20px 0;
+	padding: 0;
+	justify-self:center;
+	width: 520px;
 }
 li{
+	display: flex;
+	justify-content: space-between;
 	cursor: pointer;
 	list-style: none;
 	width: 100%;
-	margin:0;
+	text-align: left;
+	left: 0;
+	font-size: 1.3em;
+	padding: 5px 0; 
+	font-weight: 600;
 }
-/* .done{
-	color: rgb(128, 128, 128);
+.done{
+	color: rgb(0, 113, 9);
 	text-decoration: line-through;
 }
-*/
 
+.text{
+	display: flex;
+	justify-content: center;
+}
+input{
+	width: 450px;
+	padding: 7px 5px 2px;;
+	font-size: 1.4em;
+	font-weight: 600;
+	margin-left: 7px;
+}
+.add, .delete, .check{
+	margin: 0 10px;
+	padding: 3px 7px;
+	background-color: #ffd4af;
+	border-radius: 10%;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
+}
+.add{
+	font-size: 2em;
+}
+
+.delete{
+	color: #b50000;
+}
